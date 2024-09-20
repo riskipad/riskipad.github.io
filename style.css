@@ -47,20 +47,14 @@ nav{
     border-radius: 20px;
     background-color: rgba(39, 39, 39, 0.616);
     width: 200px;
-    transition: width 1s;
 }
 
-.search:hover {
-    width: 300px;
-}
-
-
-nav .search-icon {
+.search-icon {
     width: 22px;
     height: 22px;
 }
- 
-nav .search-icon img{
+
+.search-icon img{
     width: 22px;
     height: 22px;
 }
@@ -80,17 +74,6 @@ nav .search-icon img{
     border-radius: 20px;
     margin: 20px 0 20px 0;
     max-width: 380px;
-    transition: ease-in-out 0.7s;
-}
-
-.content .text-left .box:hover{
-    width: 300px;
-    padding: 25px;
-}
-
-.content .text-right .box:hover{
-    width: 420px;
-    padding: 25px;
 }
 
 .content {
@@ -99,20 +82,19 @@ nav .search-icon img{
     justify-content: space-between;
 }
 
-.content .text-left {
+.text-left {
     width: 400px;
 }
 
-.content .text-left h1 {
+.text-left h1 {
     font-size: 3.5rem;
     margin: 0;
 }
 
-.content .text-left .box h2 {
+.box h2 {
     font-size: 1.5rem;
     margin: 0;
 }
-
 
 .see{
     display: flex;
@@ -124,14 +106,9 @@ nav .search-icon img{
     height: 22px;
 }
 
-.content .text-left .see a {
+.see a {
     text-decoration: none;
     color: rgb(203, 203, 203);
-    transition: ease-in-out 0.4s;
-}
-
-.content .text-left .see a:hover {
-    color: white;
 }
 
 .content .text-left .box {
